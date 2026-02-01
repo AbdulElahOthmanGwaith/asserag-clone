@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
-import HeroSection from '@/components/HeroSection';
+import Hero from '@/components/Hero';
 import FeaturesSection from '@/components/FeaturesSection';
-import ServicesSection from '@/components/ServicesSection';
+import Services from '@/components/Services';
 import PrinciplesSection from '@/components/PrinciplesSection';
 import StatsSection from '@/components/StatsSection';
 import ClientsSection from '@/components/ClientsSection';
@@ -24,9 +24,9 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
       <main>
-        <HeroSection />
+        <Hero />
         <FeaturesSection />
-        <ServicesSection />
+        <Services />
         <ProjectsGallery />
         <PrinciplesSection />
         <StatsSection />
