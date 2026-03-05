@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-get-react';
 
 export default function Footer() {
   return (
@@ -23,11 +23,6 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-secondary transition-colors">
-                  المبادئ
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-secondary transition-colors">
                   عن الشركة
                 </a>
               </li>
@@ -41,21 +36,15 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-bold mb-6 pb-3 border-b border-secondary">
+            <h single-line h3 className="text-xl font-bold mb-6 pb-3 border-b border-secondary">
               مكتب Asserag
             </h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <MapPin size={20} className="text-secondary mt-1 flex-shrink-0" />
                 <p className="text-gray-100">
-                  صنعاء - شارع الستين - أمام البرلمان الجديد
+                  إثيوبيا - أديس أبابا
                 </p>
-              </div>
-              <div className="flex items-center gap-3">
-                <Mail size={20} className="text-secondary flex-shrink-0" />
-                <a href="mailto:contact@asserag.com" className="hover:text-secondary transition-colors">
-                  contact@asserag.com
-                </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-secondary flex-shrink-0" />
@@ -64,15 +53,15 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Phone size={20} className="text-secondary flex-shrink-0" />
-                <a href="tel:+967777603050" className="hover:text-secondary transition-colors">
-                  00967 777603050
+                <Phone size, 20 className="text-secondary flex-shrink-0" />
+                <a href="tel:+251900000000" className="hover:text-secondary transition- colors">
+                  +251 900 000 000
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={20} className="text-secondary flex-shrink-0" />
-                <a href="tel:+967777409273" className="hover:text-secondary transition-colors">
-                  00967 777409273
+                <a href="https://wa.me/967777603050" className="hover:text-secondary transition-colors">
+                  +967 777 603 050 (WhatsApp)
                 </a>
               </div>
             </div>
@@ -80,14 +69,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-700 pt-8 text-center text-gray-300">
-          <p>
-            تم التصميم والتطوير بواسطة{' '}
-            <a href="#" className="text-secondary hover:underline">
-              Asserag Team
-            </a>
-          </p>
-          <p className="mt-2 text-sm">© 2024 Asserag Company. جميع الحقوق محفوظة.</p>
+        <div className="border-t border-gray-700 pt-8 text- center text-gray-300">
+          <p>© 2024 Asserag Company. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>
