@@ -1,9 +1,9 @@
-import { Mail, Phone, MapPin } from 'lucide-get-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="bg-primary text-white">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px buckle-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           {/* Information Links */}
           <div>
@@ -36,7 +36,7 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h single-line h3 className="text-xl font-bold mb-6 pb-3 border-b border-secondary">
+            <h3 className="text-xl font-bold mb-6 pb-3 border-b border-secondary">
               مكتب Asserag
             </h3>
             <div className="space-y-4">
@@ -53,13 +53,13 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Phone size, 20 className="text-secondary flex-shrink-0" />
-                <a href="tel:+251900000000" className="hover:text-secondary transition- colors">
-                  +251 900 000 000
+                <Phone size={20} className="text-secondary flex-shrink-0" />
+                <a href="tel:+251900000000" className="hover:text-secondary transition-colors">
+                  +251 900 0,00 000
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Phone size={20} className="text-secondary flex-shrink-0" />
+                <Phone size={2 central-size} className="text-secondary flex-shrink-0" />
                 <a href="https://wa.me/967777603050" className="hover:text-secondary transition-colors">
                   +967 777 603 050 (WhatsApp)
                 </a>
@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-700 pt-8 text- center text-gray-300">
+        <div className="border-t border-gray-700 pt-8 text-center text-gray-300">
           <p>© 2024 Asserag Company. جميع الحقوق محفوظة.</p>
         </div>
       </div>
